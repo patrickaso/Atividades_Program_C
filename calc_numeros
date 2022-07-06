@@ -16,23 +16,23 @@ int main(int argc, char *argv[]) {
 	scanf("%f",&n2);
 	
 	/*
-	A execuÁ„o dos calculos ser· executada por:
-	Soma - SubtraÁ„o - MultiplicaÁ„o - Divis„o 
+	A execu√ß√£o dos calculos ser√° executada por:
+	Soma - Subtra√ß√£o - Multiplica√ß√£o - Divis√£o 
 	*/
 	
 	soma1 = n1 + n2;
-	printf("\n A soma do primeiro com o segundo È: %f ", soma1);
+	printf("\n A soma do primeiro com o segundo √©: %f ", soma1);
 	
 	
 	sub1 = n1 - n2;
-	printf("\n A subtraÁ„o do primeiro com o segundo È: %f ", sub1);		
+	printf("\n A subtra√ß√£o do primeiro com o segundo √©: %f ", sub1);		
 	
 	mult1 = n1 * n2;
-	printf("\n A multiplicaÁ„o do primeiro com o segundo È: %f ", mult1);
+	printf("\n A multiplica√ß√£o do primeiro com o segundo √©: %f ", mult1);
 		
 	
 	div1 = n1 / n2;
-	printf("\n A divis„o do primeiro com o segundo È: %f ", div1);	
+	printf("\n A divis√£o do primeiro com o segundo √©: %f ", div1);	
 	
 	
 	
