@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	/* Ler temperatura em C° e apresentar em F°
+			Formula do Fahreint
+			F = (9 * C + 160) / 5 
+	*/
+	
+	float celsius, resultado;
+	
+	printf("\nInforme a temperatura em Celsius:");
+	scanf("%f", &celsius);
+	
+	resultado = (9 * celsius + 160)/ 5;
+	
+	printf("\nEm Fahrenheit, a temperatura equivale a: %.1f F", resultado);
+	
+	
+	return 0;
+}
